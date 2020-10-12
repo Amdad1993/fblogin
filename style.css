@@ -1,0 +1,164 @@
+*{margin: 0; padding: 0;}
+body{
+ background-color: #F1F2F6;
+
+}
+
+#maindiv{
+   width: 960px;
+   margin: 0 auto;
+
+}
+
+.title{
+  display: inline;
+  float: left;
+  margin: 205px 0;
+
+
+
+}
+
+.title h1{
+  
+  font-size:54px;
+  color: #1877f2;
+  font-family: URWForm-Bold;
+  font-weight: bold;
+
+}
+
+@font-face {
+  font-family: URWForm-Bold;
+  src: url(font/URWForm-Bold.eot);
+  src: url(font/URWForm-Bold.ttf);
+  src: url(font/URWForm-Bold.svg);
+  src: url(font/URWForm-Bold.woff);
+
+}
+
+@font-face {
+  font-family:  URWForm-Thin;
+  src: url(font/ URWForm-Thin.eot);
+  src: url(font/URWForm-Thin.ttf);
+  src: url(font/UURWForm-Thin.svg);
+  src: url(font/URWForm-Thin.woff);
+
+}
+
+.title p{
+  
+  font-size:27px;
+  font-family: URWForm-Bold;
+
+}
+
+
+
+#formdiv{
+    width: 400px;
+    height: 350px;
+    display: block;
+    background-color: #ffffff;
+    float: right;
+    margin-top: 130px;
+    border: 1px solid snow;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 20px  rgb(40, 41, 41);
+    position: relative;
+
+
+}
+#formdiv .box{
+
+  font-size: 15px;
+}
+
+#formdiv .box , .submit {
+  display: block;
+  margin-top: 20px;
+  margin-left:20px;
+  width: 360px;
+  height: 50px;
+  border: 2px solid #dddfe2;
+  border-radius: 8px;
+}
+
+#formdiv hr{
+ width:360px ;
+ margin: 0 auto;
+ color:  #dddfe2 ;
+ 
+
+}
+
+#formdiv .submit{
+
+  border: none;
+  background-color: #1877f2;
+  color: aliceblue;
+  font-size:25px;
+  font-family: URWForm-Bold;
+  
+}
+
+#formdiv a{
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size:15px;
+  font-family:  URWForm-Thin;
+  color:blue;
+  text-decoration: none;
+
+
+  
+}
+
+#formdiv a:hover{
+  text-decoration: underline;
+
+}
+#formdiv .sure{
+
+  background-color: #67dd4f;
+  color: aliceblue;
+  font-size:16px;
+  font-family: URWForm-Bold;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+ 
+}
+
+#formdiv .sure:hover{
+
+  background-color: #36A420;
+}
+.footer{
+  margin-top: 510px;
+  margin-left:595px;
+  position: absolute;
+}
+.footer a{
+  padding: 5px;
+  text-decoration: none;
+  display: inline;
+  color: black;
+  font-size:16px;
+  font-family: URWForm-Bold;
+
+}
+.footer p{
+
+  text-decoration: none;
+  display: inline;
+  color: black;
+  font-size:16px;
+  font-family: URWForm-thin;
+
+}
